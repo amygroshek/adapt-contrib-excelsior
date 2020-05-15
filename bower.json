@@ -1,0 +1,24 @@
+{
+  "name": "adapt-contrib-excelsior",
+  "version": "0.0.1",
+  "framework": ">=5.2",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-vanilla",
+  "issues": "https://github.com/adaptlearning/adapt_framework/issues/new",
+  "theme": "excelsior",
+  "displayName": "Excelsior",
+  "description": "Branded theme for Excelsior",
+  "main": "js/theme.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "targetAttribute": "_vanilla"
+}
