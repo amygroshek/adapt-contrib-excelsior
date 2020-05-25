@@ -174,9 +174,19 @@ body {
 
 .location-menu {
   .nav {
-    margin-left: 56px;
+    margin-left: 0;
+    .logo {
+      margin-left: 12px;
+    }
     .bottom-border {
       width: 100%;
+    }
+  }
+  .menu {
+    &.boxmenu {
+      &.has-bg-image {
+        min-height: calc(100vh - 56px);
+      }
     }
   }
 }
